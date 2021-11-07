@@ -1,0 +1,199 @@
+{
+    {
+    "course_code": "ECE244",
+    "professors":
+        {
+            {
+                "professor_id": 42253,
+                "professor_name": "Belinda Wang",
+                "professor_work_place" : "Engineering Department of University of Toronto - St. George Campus",
+                "professor_rating" : "3.5 / 5.0",
+                "professor_difficulty" : "2.9/5.0",
+                "professor_total_rating" : "43",
+                "professor_link": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=15631",
+                "professor_would_take_again": "37.5%",
+                "professor_courses_taught": 
+                {
+                    "ECE244",
+                    "ECE212",
+                    "APS163",
+                }
+            },
+
+            {
+                "professor_id": 1312347,
+                "professor_name": "Paul Chow",
+                "professor_work_place" : "Engineering Department of University of Toronto - St. George Campus",
+                "professor_rating" : "3.5 / 5.0",
+                "professor_difficulty" : "2.9/5.0",
+                "professor_total_rating" : "43",
+                "professor_link": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=15631",
+                "professor_would_take_again": "37.5%",
+                "professor_courses_taught": 
+                {
+                    "ECE244",
+                    "ECE212",
+                    "APS163",
+                }
+            },
+
+
+
+        }
+    
+    }
+
+}
+
+
+// 下面是正式版的
+{
+    'CSC110': 
+    {
+        'SLEC0101': ['prof A', [1.15, 2.15, 3.15]],
+        'SLEC0102': ['prof A', [1.11, 2.11, 3.11]],
+        'YLEC0201': ['prof B', [1.11, 2.11]],
+        'FLEC0301': ['prof B', [4.11, 2.11, 3.11]]
+    },
+
+    'CSC112': 
+    {
+        'SLEC0101': ['prof A', [1.15, 2.15, 3.15]],
+        'SLEC0102': ['prof A', [1.11, 2.11, 3.11]],
+        'YLEC0201': ['prof B', [1.11, 2.11]],
+        'FLEC0301': ['prof B', [4.11, 2.11, 3.12]]
+    },
+    'CSC113': 
+    {
+        'SLEC0101': ['prof A', [1.15, 2.15, 3.15]],
+        'SLEC0102': ['prof A', [1.11, 2.11, 3.11]],
+        'YLEC0201': ['prof B', [1.14, 2.11]],
+        'FLEC0301': ['prof B', [4.11, 1.11, 3.11]]
+    },
+}
+
+
+
+{
+"course_code": "CSC110",
+"lecture_section_professor":
+    {
+        "Professor Belinda":
+        {
+            "lecture session": 
+            {
+                "LEC0101":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "loction": "B1001"
+                 
+                },
+                "LEC0102":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "location" : "BA1001"
+             
+                },
+            }
+            
+            "professor_info":
+            {
+                "professor_id": 42253,
+                "professor_name": "Belinda Wang",
+                "professor_work_place" : "Engineering Department of University of Toronto - St. George Campus",
+                "professor_rating" : "3.5 / 5.0",
+                "professor_difficulty" : "2.9/5.0",
+                "professor_total_rating" : "43",
+                "professor_link": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=15631",
+                "professor_would_take_again": "37.5%",
+                "professor_courses_taught": 
+                {
+                    "ECE244",
+                    "ECE212",
+                    "APS163",
+                }
+            }
+
+        },
+        "Professor Chow":
+        {
+            "lecture session": 
+            {
+                "LEC0103":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "loction": "B1001"
+                 
+                },
+                "LEC0105":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "location" : "BA1001"
+             
+                },
+            }
+        }
+        
+    },
+
+"course_code": "ECE244",
+"lecture_section_professor":
+    {
+        "Professor Belinda":
+        {
+            "lecture session": 
+            {
+                "LEC0101":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "loction": "B1001"
+                 
+                },
+                "LEC0102":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "location" : "BA1001"
+             
+                },
+            }
+        },
+        "Professor Chow":
+        {
+            "lecture session": 
+            {
+                "LEC0103":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "loction": "B1001"
+                 
+                },
+                "LEC0105":
+                {
+                    "time_slot": [1.15, 1.16, 1.17],
+                    "location" : "BA1001"
+             
+                },
+            },
+
+            "professor_info":
+            {
+                "professor_id": 42253,
+                "professor_name": "Belinda Wang",
+                "professor_work_place" : "Engineering Department of University of Toronto - St. George Campus",
+                "professor_rating" : "3.5 / 5.0",
+                "professor_difficulty" : "2.9/5.0",
+                "professor_total_rating" : "43",
+                "professor_link": "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=15631",
+                "professor_would_take_again": "37.5%",
+                "professor_courses_taught": 
+                {
+                    "ECE244",
+                    "ECE212",
+                    "APS163",
+                }
+            }
+        }
+        
+    }
+}
+}
