@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css"
+              href="{{ url_for('static',filename='mainpage.css') }}">
+        <title>RateMyCourses</title>
+    </head>
+    <body>
+
+        <h1>Upload Your PDF</h1>
+        <form action="/uploaded" method="post">
+            <button type="button" name="upload">Upload</button>
+        </form>
+    </body>
+
+</html>
